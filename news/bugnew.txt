@@ -1,0 +1,4 @@
+title
+'It's Not a Bug, It's a Feature.' Trite—or Just Right?
+footer
+A standard joke is that a bug can be turned into a feature simply by documenting it (then theoretically no one can complain about it because it’s in the manual), or even by simply declaring it to be good. “That’s not a bug, that’s a feature!” is a common catchphrase.

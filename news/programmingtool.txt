@@ -1,0 +1,5 @@
+title
+This Programming Tool Makes It Easier for Apps to Work Anywhere
+
+subtitle
+WebAssembly was created to build applications for browsers, but it's increasingly finding a home in cloud computing centers.

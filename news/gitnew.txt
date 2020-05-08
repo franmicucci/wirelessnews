@@ -1,0 +1,10 @@
+title
+GitHub Takes Aim at Open Source Software Vulnerabilities
+
+subtitle
+GitHub Advanced Security will help automatically spot potential security problems in the world's biggest open source platform.
+
+text
+In September, GitHub acquired the code scanning tool Semmle as part of a plan to help the GitHub community catch common security flaws automatically. Advanced Security includes this service, calling out which line of code contains a potential vulnerability, why it might be exploitable, and how to fix it. In addition to this automatic scanning, Semmle's technology can also be used manually by security researchers. GitHub's goal is to use Advanced Security as both a warning system for developers and a built-in framework for bug hunters to find and report additional issues.
+
+GitHub Advanced Security also includes tools that scan user "repositories," essentially the folder where they store their development projects, for secret data like passwords and private keys that shouldn't be exposed and accessible. GitHub works with a number of partners, including Amazon Web Services and Alibaba, to understand the characteristics of their authentication tokens and spot them automatically. The feature has already been available to public repositories for a couple of years, but today GitHub is also adding support to scan private repositories as well. GitHub says that eight percent of active public repositories had a secret exposed in them during the last month alone.
