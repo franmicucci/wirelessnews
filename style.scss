@@ -3,9 +3,11 @@ $background-color: rgb(235, 238, 237);
 $text-primary: white;
 $text-secondary: black;
 $font: 'Open Sans', sans-serif;
+$shadow: 4px 4px 8px #000;
 
 @import 'header';
 @import 'main';
+@import 'footer';
 
 body {
     font-family: $font;

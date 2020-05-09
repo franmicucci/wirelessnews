@@ -35,6 +35,7 @@ header .container-header .titulo {
   font-size: 3rem;
   margin-left: 1em;
   color: #ebeeed;
+  text-shadow: 4px 4px 8px #000;
 }
 
 main .container-main {
@@ -156,6 +157,19 @@ main .container-main aside .bloque h2 {
 main .container-main aside .bloque img {
   max-width: 100%;
   margin-right: 1em;
+}
+
+footer {
+  background-color: #61a0cb;
+  height: 100%;
+  padding: 0.7em;
+  color: white;
+  text-align: right;
+}
+
+footer p {
+  margin-right: 3em;
+  text-shadow: 4px 4px 8px #000;
 }
 
 body {
