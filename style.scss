@@ -1,0 +1,13 @@
+$primary-color: rgb(54, 134, 199);
+$background-color: rgb(189, 204, 202);
+$text-primary: white;
+$text-secondary: black;
+$font: 'Open Sans', sans-serif;
+
+@import 'header';
+@import 'main';
+
+body {
+    font-family: $font;
+    margin: 0 auto;
+}
