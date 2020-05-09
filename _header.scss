@@ -8,21 +8,19 @@ header {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        background-color: $primary-color;
+        background-color: #61a0cb;
         color: $text-primary;
-        padding: 0.75em 0;
 
-        img {
-        border-radius: 100%;
+        .img {
         max-width: 100%;
         order: 1;
-        margin-left: 1em;
         }
 
         .titulo {
             order: 2;
             font-size: 3rem;
             margin-left: 1em;
+            color: $background-color;
         }
     }
 }
