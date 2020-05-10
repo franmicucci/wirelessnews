@@ -7,10 +7,10 @@ header .container-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -33,32 +33,26 @@ header .container-header .titulo {
       -ms-flex-order: 2;
           order: 2;
   font-size: 3rem;
-  margin-left: 1em;
   color: #ebeeed;
   text-shadow: 4px 4px 8px #000;
 }
 
 main .container-main {
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #ebeeed;
+  width: 100%;
 }
 
 main .container-main .menu-nav {
-  width: 20%;
-  height: 163vh;
   font-size: 1.5rem;
   background-color: #bed4e2;
   color: #ebeeed;
@@ -75,79 +69,40 @@ main .container-main .menu-nav ul li {
 }
 
 main .container-main .articulo-reciente {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   font-size: 1rem;
+  text-align: center;
+  padding-bottom: 1em;
+  border-bottom: 2px solid black;
+  margin-bottom: 3em;
 }
 
 main .container-main .articulo-reciente h1 {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
   font-size: 1.5rem;
 }
 
 main .container-main .articulo-reciente .imagen {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   margin-top: 2rem;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
 }
 
 main .container-main .articulo-reciente .texto {
-  -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
   font-size: 1.1rem;
   text-align: left;
 }
 
 main .container-main aside {
-  width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  text-align: center;
+}
+
+main .container-main aside .articulo-2 {
+  margin-bottom: 5em;
 }
 
 main .container-main aside h3 {
   font-weight: lighter;
   font-style: oblique;
-}
-
-main .container-main aside .bloque {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 main .container-main aside .bloque h2 {
@@ -164,11 +119,10 @@ footer {
   height: 100%;
   padding: 0.7em;
   color: white;
-  text-align: right;
+  text-align: center;
 }
 
 footer p {
-  margin-right: 3em;
   text-shadow: 4px 4px 8px #000;
 }
 
