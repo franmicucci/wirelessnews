@@ -126,7 +126,7 @@ main .container-main aside .bloque img {
   margin-right: 1em;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   main .container-main {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
