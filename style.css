@@ -138,10 +138,12 @@ main .container-main aside .bloque img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
   main .container-main .menu-nav {
     width: 20%;
-    height: 163vh;
   }
   main .container-main .articulo-reciente {
     width: 50%;
@@ -173,6 +175,8 @@ main .container-main aside .bloque img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
   }
   main .container-main aside .bloque {
     display: -webkit-box;
