@@ -24,3 +24,22 @@ header {
         }
     }
 }
+
+
+
+@media screen and (min-width: 500px){
+    
+    header{
+        .container-header{
+            flex-direction: row ;   
+
+            .titulo {
+                margin-left: 1em;
+                
+            }
+        }
+    }
+}
+
+
+        
