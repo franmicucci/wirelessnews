@@ -80,6 +80,14 @@ main .container-main .menu-nav ul li {
   border-bottom: 2px solid #ebeeed;
 }
 
+main .container-main .menu-nav ul li:hover {
+  color: black;
+  font-size: 1.6rem;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 main .container-main .articulo-reciente {
   font-size: 1rem;
   text-align: center;
@@ -117,6 +125,23 @@ main .container-main aside h3 {
   font-style: oblique;
 }
 
+main .container-main aside .vermas {
+  margin-top: 1em;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-shadow: 1px 1px 4px #bdbaba;
+          box-shadow: 1px 1px 4px #bdbaba;
+  border: none;
+}
+
+main .container-main aside .vermas:hover {
+  -webkit-box-shadow: 2px 2px 8px #bed4e2;
+          box-shadow: 2px 2px 8px #bed4e2;
+  padding: 0.2em;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 main .container-main aside .bloque h2 {
   font-size: 1.2rem;
 }
@@ -126,7 +151,7 @@ main .container-main aside .bloque img {
   margin-right: 1em;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
   main .container-main {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -192,6 +217,14 @@ main .container-main aside .bloque img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  main .container-main aside h3 {
+    text-align: left;
+  }
+  main .container-main aside .vermas {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 

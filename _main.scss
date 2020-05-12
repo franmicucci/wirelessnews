@@ -19,7 +19,16 @@ main {
                 li {
                     margin-top: 3em;
                     border-bottom: 2px solid $background-color;
+
+                    
                 }
+                
+                li:hover {
+                    color: black;
+                    font-size: 1.6rem;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    }
             }
 
         }
@@ -61,7 +70,20 @@ main {
                 font-weight: lighter;
                 font-style: oblique; 
             }
+            
+            .vermas {
+                margin-top: 1em;
+                font-family: $font;
+                box-shadow: 1px 1px 4px rgb(189, 186, 186);
+                border: none;
+            }
 
+            .vermas:hover {
+                box-shadow: 2px 2px 8px #bed4e2;
+                padding: 0.2em;
+                cursor: pointer;
+                transition: 0.5s;
+            }
 
             .bloque {
 
@@ -86,7 +108,7 @@ main {
 }        
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 500px){
     
     main{
         .container-main{
@@ -122,6 +144,14 @@ main {
                         flex-direction: row;
                         justify-content: space-between;
                         align-items: center;
+                    }
+
+                    h3 {
+                        text-align: left;
+                    }
+
+                    .vermas {
+                        justify-content: flex-start;
                     }
                 }
         }
